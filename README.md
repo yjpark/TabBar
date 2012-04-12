@@ -1,5 +1,7 @@
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=1338
 
+with many bug fixed
+
 The plugin is derived from miniBufExplorer.
 Only the modifiable buffer are displayed, and counted.
 Key-bindings for buffer switching: <Alt-bufNumber>
