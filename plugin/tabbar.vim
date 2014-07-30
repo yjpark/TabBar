@@ -765,6 +765,7 @@ function! <SID>Win_FindOrCreate(bufName, forceEdge, isExplorer)
       " and so that it will get deleted when it gets hidden and turn on word wrap.
       setlocal noswapfile
       setlocal buftype=nofile
+      setlocal filetype=tabbar
       setlocal bufhidden=delete
       if g:Tb_VSplit == 0
         setlocal wrap
